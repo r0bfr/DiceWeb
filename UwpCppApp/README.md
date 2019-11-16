@@ -31,7 +31,7 @@ The UwpCppApp project is a sample C++ app that can be uploaded to Microsoft Part
 - Open the **DiceWebSampleApps.sln** in Visual Studio
 - Associate the **UwpCppApp** project with your store account
   - Select the project in the Solution Explorer
-  - Select menu Project -> Publish -> Associate app with the store ...
+  - Select menu Project -> Store -> Associate app with the Store ...
     - Make sure to log in under the account where the package will be uploaded.
     - If the app has not already been created in Partner Center, you can reserve the name first.
 - Configure **DiceSettings.json**
@@ -44,7 +44,7 @@ The UwpCppApp project is a sample C++ app that can be uploaded to Microsoft Part
 - Complete the Setup
 - Create packages for upload to Partner Center
   - Select the **UwpCppApp** project in the Solution Explorer
-  - Select menu Project -> Publish -> Create app packages ...
+  - Select menu Project -> Store -> Create App Packages ...
   - Choose "Microsoft Store as \{AppName\} by \{AppPublisher\}". Do not choose side-loading
   - When finished, visit the output location for the packages.
 
